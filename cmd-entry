@@ -1,0 +1,41 @@
+#### examples of CMD
+
+#single
+# FROM python
+# CMD echo "karthick" #docker build,docker images, docker run img id then o/p karthick or docker run imgid echo "any words" o/p any words for  secure
+
+                                                                        #OR
+#multiple
+FROM python
+CMD echo "karthick"
+CMD echo "vinoth" 
+#docker build,docker images, docker run -it img id or docker run img id***then o/p is vinoth or docker run imgid echo "any words" o/p any words for seure
+
+#### example of ENTRYPOINT  single & multiple
+
+#single
+# FROM node
+# ENTRYPOINT echo "from chenaai" #docker run imgid o/p from chennai or docker run imgid echo "anywords" o/p from chennai
+
+                                                                        #OR
+#multiple (not in syllabus)
+# FROM node
+# ENTRYPOINT echo "from chenaai" 
+# ENTRYPOINT echo "from salem" 
+#docker run imgid or docker run -it img id then  o/p from salem  or doker run -it img id or doecker run img id echo "anywords" o/p from salem
+                                                                        
+#### EXAMPLES OF BOTH CMD & ENTRYPOINT in same dockerfile
+
+#what ever we write inside the cmd it takes as an argument for entry point  this the procedure for that
+
+#single
+# FROM python
+# ENTRYPOINT ["echo"]
+# CMD ["hello world"] 
+#docker run imgid then o/p is "helloword" if dont want to print this then docker run img id "any words" o/p "any words "that here u dont need to echo 
+                      #OR
+
+# FROM python (not in syllabus)
+# ENTRYPOINT ["echo"]
+# CMD ["hello world", "my world"]
+#docker run imgid then o/p is "helloword my world" if dont want to print this then docker run img id "any words" o/p "any words "that here u dont need to echo 

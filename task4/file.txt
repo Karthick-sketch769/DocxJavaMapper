@@ -1,0 +1,11 @@
+L1 :yesterday i went to movie
+L2 :i saw my friend
+L3 :we watch movie together
+L4 :after that we went to hotel
+L5 :she ordered pizaaz and burger
+L6 :server welcome and give the order to chef
+L7 :then we give gifts and welcome  eachother
+L8 :suddenyl her friends came i welocome and give  them also
+L9 :i give some instruction to them as an welcome address
+L10: at the day end we give bye each other and left and all our welcome goes to another day
+
